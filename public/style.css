@@ -1,0 +1,12 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap';
+
+* {                       
+      margin: 0;
+      padding: 0;
+      border: 0;
+  } 
+
+:root {
+      --color-purple: #7159c1;
+      --color-yellow: #f7df1e;
+    }
