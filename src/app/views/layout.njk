@@ -3,22 +3,19 @@
 
     <head>
         {% block head %}{% endblock head %}
-        <title>Gym Manager</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <link rel="stylesheet" href="/style.css">
+        <link rel="icon" href="https://bit.ly/3hfF2tG" type="image/x-icon">
+        <title>Launchstore - Compra e Venda</title>
     </head>
 
     <body>
-        <header>
-            <div class="links">
-                <a href="/instructors">Instructors</a>
-                <a href="/members">Members</a>
-            </div>
-        </header>
+        {% include "partials/header.njk" %}
 
         {% block content %}{% endblock %}
 
-    <script src="/script.js"></script>
-
+        {% include "partials/footer.njk" %}
     </body>
 
 </html>
