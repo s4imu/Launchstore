@@ -14,5 +14,14 @@ module.exports = {
             birthDay: `${day}/${month}`,
             format:  `${day}/${month}/${year}`
         }
+    }, 
+    price(value){
+        return value = value.replace(/\D/g,"")
+    },
+    formatPrice(value){
+        return value = new Intl.NumberFormat('en', {
+            style: 'currency',
+            currency: 'USD'
+        }).format(value/100)
     }
 }
