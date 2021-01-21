@@ -6,14 +6,14 @@
     <img src="https://bit.ly/2XGxLM3">
 </h1> -->
 
-## 📝About
+## 📝 About
 
 **Launchstore** is a web store where you can sell and buy products
 
 <!-- [Demonstração](https://bit.ly/30kfAxs) -->
 
 ---
-## 💻Technologies Used
+## 💻 Technologies Used
 
 * [HTML 5](https://www.w3schools.com/html/)         
 * [CSS 3](https://www.w3.org/Style/CSS/Overview.en.html)         
@@ -24,7 +24,7 @@
 * [SQL](https://www.w3schools.com/sql/) & [SQLite](https://www.sqlite.org/)
 
 ---
-<!-- ## 🔧Funcionalidades
+<!-- ## 🔧 Funcionalidades
 
 * ### Cadastro de pontos de coleta
     <h1 align=center>
@@ -37,7 +37,7 @@
     </h1>
 --- -->
 
-## 📂How to download the project
+## 📂 How to download the project
 This project requires [Node](https://nodejs.org/en/download/).
 
 ```bash
