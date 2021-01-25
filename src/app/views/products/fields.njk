@@ -23,7 +23,7 @@
 <div class="item">
     <div>Images</div>
     <div>
-        <div id="photos-upload">
+       <div id="photos-upload">
             <input 
             id="photos-input"
             type="file"
@@ -31,11 +31,21 @@
             multiple
             accept="image/*"
             onchange="PhotosUpload.handleFileInput(event)"
-            required>
-            <p>Select up to 6 images</p>
-        </div>
-        <div id="photos-preview">
-        </div>
+            />
+            <p>Select up until 6 images</p>
+       </div>
+       <div id="photos-preview">
+           {% if files %}
+                {% for image in files%}
+                    <div class="photo" id="{{image.id}}">
+                        <img src="{{image.src}}" alt="{{image.name}}">
+                        <i class="material-icons"
+                        onclick="PhotosUpload.removeOldPhoto(event)">delete_outline</i>    
+                    </div>
+                {% endfor %}
+                <input type="hidden" name="removed_files">
+           {% endif %} 
+       </div>
     </div>
 </div>
 <div class="item">
